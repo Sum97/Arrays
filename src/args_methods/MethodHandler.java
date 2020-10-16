@@ -7,7 +7,7 @@ public class MethodHandler {
 		for( Object object:strings)
 		{
 			if(object==null)
-				break;
+				continue;
 			System.out.print(object+"\t");
 		}
 		System.out.println();
@@ -20,7 +20,7 @@ public class MethodHandler {
 		for( Object object:obejct)
 		{
 			if(object==null)
-				break;
+				continue;
 			System.out.print(object+"\t");
 		}
 		System.out.println();
@@ -33,7 +33,7 @@ public class MethodHandler {
 		{
 			for(Object object2:object) {
 			if(object2==null)
-				break;
+				continue;
 			System.out.print(object2+"\t");
 			}
 		}
